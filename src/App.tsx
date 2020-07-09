@@ -1,9 +1,13 @@
 import React from 'react';
 
-function App() {
-  return (
-    <h1>Hello Rocketseat</h1>
-  );
-}
+import GlobalStyles from './styles/GlobalStyles';
+import Layout from './components/Layout';
+
+const App: React.FC = () => (
+  <>
+    <GlobalStyles />
+    <Layout />
+  </>
+);
 
 export default App;
